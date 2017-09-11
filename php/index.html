@@ -1,6 +1,108 @@
-<html>
-<header><title>This is title</title></header>
-<body>
-Hello world
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  	<title>App Tributos</title>
+
+    	<!-- Meta -->
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Questionário sobre como vai a parte tributária de sua empresa">	
+	<meta name="author" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="theme-color" content="#a040a0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+    	<!-- Latest compiled and minified CSS -->
+    	<link rel="stylesheet" href="./css/bootstrap.min.css">
+    	<link rel="stylesheet" href="./css/jquery.mobile.min.css">
+	<link href="./css/jasny-bootstrap.min.css" rel="stylesheet">
+
+    	<!-- jQuery library -->
+    	<script src="./js/jquery.min.js"></script>
+
+    	<!-- Latest compiled JavaScript -->
+    	<script src="./js/bootstrap.min.js"></script>
+
+	<!-- Includes do projeto -->
+	<link rel="stylesheet" href="./css/index.css">
+    	<script src="./js/index.js"></script>
+	<script src="./js/modernizr.min.js"></script>
+    	<script src="./js/jasny-bootstrap.min.js"></script>
+	<script src="./js/angular.min.js"></script>
+
+	<!-- NavBar -->
+	<link href="navmenu.css" rel="stylesheet">
+
+	<!-- Icones-->
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="../../assets/ico/favicon.png">
+	<link rel="manifest" href="manifest.json">
+	<link rel="apple-touch-icon" href="img/icon-48.png">
+	<link rel="apple-touch-icon" sizes="96x96" href="img/icon-96.png">
+	<link rel="apple-touch-icon" sizes="196x196" href="img/icon-196.png">
+	<link rel="dns-prefetch" href="https://nolan.cloudant.com">
+
+
+
+</head>
+
+<body style="">
+
+
+    <div class="navmenu navmenu-default navmenu-fixed-left offcanvas-sm" style="">
+      <a class="navmenu-brand visible-md visible-lg" href="#">Tributos</a>
+      <ul class="nav navmenu-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Questionários<b class="caret"></b></a>
+          <ul class="dropdown-menu navmenu-nav">
+            <li><a href="#">Benefícios Fiscais</a></li>
+            <li><a href="#">Lei 12973</a></li>
+            <li><a href="#">Lucro da Exploração</a></li>
+            <li><a href="#">Lucro Real</a></li>
+            <li><a href="#">Obrigações Acessórias</a></li>
+            <li><a href="#">Provisões Temporárias</a></li>
+	    <li class="divider"></li>
+	    <li><a href="#">Resultados Consolidados</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>    <div class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+      <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Tributos</a>
+    </div>
+
+
+
+    <div class="container">
+      <div class="page-header">
+        <h1>Questionário Tributos</h1>
+      </div>
+      <p class="lead">This example shows the navmenu element. If the viewport is <b>less than 992px</b> the menu will be placed the off canvas and will be shown with a slide in effect.</p>
+      <p>Also take a look at the examples for a navmenu with <a href="../navmenu-push">push effect</a> and <a href="../navmenu-reveal">reveal effect</a>.</p>
+    </div><!-- /.container -->
+    
+
+<div class="navmenu navmenu-default navmenu-fixed-left offcanvas-sm offcanvas-clone"></div>
+
+<script>
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('./js/sw.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+
+</script>
+
 </body>
 </html>
