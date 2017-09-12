@@ -1,0 +1,153 @@
+﻿body {
+    width: 100%;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+ul{
+    margin-left: -41px;
+}
+li{
+    list-style: none;
+}
+
+a{
+    cursor:pointer;
+}
+
+/**header**/
+.logo img {
+    max-width: 37%;
+   
+}
+
+.card-azul {
+    background-color: #062c6a;
+    width: 37%;
+    color: #fff;
+    height: 800px;
+}
+
+.card-new {
+    background-color: #062c6a;
+    width: 37%;
+    color: #fff;
+    height: 800px;
+}
+
+.perfil {
+    color: #caa360;
+}
+
+.perfil2 {
+    color: #062c6a;
+}
+
+.card-img {
+    background-image: url(../Content/img/img-topo.png);
+    background-repeat: no-repeat;
+    height: 320px;
+    position: relative;
+}
+
+.card-info{
+    position: absolute;
+    bottom: 10px;
+    padding-left: 17%;
+}
+    .card-info h4{
+        border-bottom: solid 1px;
+    }
+
+.conta {
+    width: 58%;
+    padding: 8px 0px;
+}
+
+.newconta{
+  
+    padding: 8px 0px;
+}
+
+.frase-smart {
+    position: absolute;
+    top: 13px;
+    left: 86%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+i {
+    vertical-align: middle;
+}
+.info{
+    margin-left: 229px;
+}
+
+    .info p {
+        line-height: 30px;
+    }
+    .info input {
+        color: #336096;
+        background-color: #f2e9d9;
+    }
+    .info h4 {
+        font-weight: 600;
+        margin-top: 22px;
+    }
+.potencial {
+    color: #336096;
+   
+}
+    .potencial h4 {
+        font-weight: 600;
+        margin-top: 22px;
+        color: #000;
+    }
+.posicao {
+    position: absolute;
+    top: 30px;
+    padding-left: 30px;
+}
+
+.padrao {
+    border-color: #336096 !important;
+    border: solid 2px;
+}
+
+.painel {
+    background-color: #f2e9d9;
+}
+
+.loading{
+    max-width: 85% !important;
+}
+.texto-interno{
+    
+}
+
+.divisao{
+    margin-bottom: 30px;
+}
+
+.texto-interno img{
+    max-width: 100px;
+}
