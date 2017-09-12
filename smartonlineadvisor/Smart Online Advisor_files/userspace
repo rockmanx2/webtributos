@@ -1,7 +1,7 @@
 (function(){
 var l,
     doAuth,
-    h = ["localhost","localhost","web-app-smartonlineadvisor.azurewebsites.net"],
+    h = ["fronttributos-apptributos.a3c1.starter-us-west-1.openshiftapps.com","localhost","web-app-smartonlineadvisor.azurewebsites.net"],
     valid = false,
     a = "78wad0hvzq61m8",
     fwk = "https://platform.linkedin.com/js/framework?v=1.0.78-1429",
@@ -63,7 +63,7 @@ if AUTH_USERSPACE
   /*
     endif !LIX_DISABLE_USERSPACE_OAUTH
   */
-    l.anonymous_token = "ymW7o09F3b5u8tE9HVKTdnEXs5YSdAPi0k65";
+    l.anonymous_token = "wqoGw7tG9G2s_cxCh4dFaU_EiLy6RmjEMJJJ";
     l.anonymous_expires_in = parseInt("1800", 10);
     l.member_id = "";
     l.api_key = "78wad0hvzq61m8";
