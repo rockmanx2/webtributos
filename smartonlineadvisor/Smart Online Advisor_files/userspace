@@ -58,14 +58,14 @@ if AUTH_USERSPACE
   /*
   if !LIX_DISABLE_USERSPACE_OAUTH
     */
-    l.oauth_token = "dwbYsyMW3PjkxadTk_RvVGHlBj_jyYKg-I1W";
-    l.oauth_expires_in = parseInt("1800", 10);
+    l.oauth_token = "";
+    l.oauth_expires_in = parseInt("0", 10);
   /*
     endif !LIX_DISABLE_USERSPACE_OAUTH
   */
-    l.anonymous_token = "kM8IQzabC0sUFDNR3d016VYH6mLLD0qw6dRu";
+    l.anonymous_token = "ymW7o09F3b5u8tE9HVKTdnEXs5YSdAPi0k65";
     l.anonymous_expires_in = parseInt("1800", 10);
-    l.member_id = "_rm029chbB";
+    l.member_id = "";
     l.api_key = "78wad0hvzq61m8";
     l = IN.ENV.api = IN.ENV.api || {};
     l.queue_interval = parseInt("300", 10);
