@@ -1,22 +1,27 @@
-var CACHE_NAME = 'my-site-cache-v1';
+var CACHE_NAME = 'my-site-cache-v2';
 
-importScripts('./js/cache-polyfill.js');
+importScripts('../js/cache-polyfill.js');
 
 self.addEventListener('install', function(e) {
  e.waitUntil(
    caches.open(CACHE_NAME).then(function(cache) {
      return cache.addAll([
        '/',
-       '/index.html',
-       '/css/index.css',
-       '/css/jasny-bootstrap.min.css',
-       '/css/jquery.mobile.min.css',
-       '/css/bootstrap.min.css',
-       '/js/index.js',
-       '/js/jasny-bootstrap.min.js',
-       '/js/modernizr.min.js',
-       '/js/bootstrap.min.js',
-       '/js/jquery.min.js'
+       '../index.html',
+       '../css/index.css',
+       '../css/jasny-bootstrap.min.css',
+       '../css/jquery.mobile.min.css',
+       '../css/bootstrap.min.css',
+       '../js/index.js',
+       '../js/jasny-bootstrap.min.js',
+       '../js/modernizr.min.js',
+       '../js/bootstrap.min.js',
+       '../js/jquery.min.js',
+       '../js/cache-polyfill.js',
+       '../js/angular.min.js',
+       '../pics/ajax-loader.gif',
+       '../pics/favicon.ico',
+       '../questionario/questionario.html'
      ]);
    })
  );
