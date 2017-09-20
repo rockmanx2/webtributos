@@ -39,12 +39,6 @@ body {
   max-width: 100%;
 }
 
-@media (min-width: 1px) {
-  .navbar-toggle {
-    display: block !important;
-  }
-}
-
 @media (min-width: 992px) {
   body {
     padding: 0 0 0 300px;
@@ -124,4 +118,8 @@ div.fullscreen {
 
 .alert{
     display: none;
+}
+
+.dropdown-backdrop {
+    position: static;
 }
