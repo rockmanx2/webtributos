@@ -1,0 +1,1 @@
+C:\inetpub\wwwroot\webtributos\php\webtributos\bin\Debug\webtributos.exe.config

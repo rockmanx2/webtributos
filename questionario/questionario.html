@@ -1,0 +1,29 @@
+﻿<div ng-controller="controlQuest" id="divQuestionario">
+    <div class="page-header" >
+        <h1>{{titulo}}</h1>
+    </div>
+    <p class="lead">{{descricao}}</p>
+
+    <form name="formQuestionario">
+        <div class="formGroup">
+            <div ng-repeat="pergunta in perguntas" class="panel panel-primary">
+              <div class="panel-heading">{{pergunta.texto}}</div>
+              <div class="panel-body center-block-btn">
+                  <div class="input-group">
+                    <div id="radioBtn" class="btn-group-vertical">
+                        <span onclick="btnClickQuestion()" class="btn btn-default btn-sm notActive btn-responsive" ng-repeat="resposta in pergunta.respostas" data-toggle="{{pergunta.ordem}}" data-value="{{resposta.resposta}}">{{resposta.resposta}}</span>
+                    </div>
+               </div>
+              </div>
+               
+            </div>
+            <div class="center-block-btn">
+             <a onclick="calcularRespostas();" class="btn btn-lg btn-success">Mostrar meu Resultado</a>
+                </div>
+         </div>
+
+    </form>
+
+
+
+</div>

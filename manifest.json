@@ -1,0 +1,16 @@
+{
+  "name": "Personal Advisor",
+  "short_name": "Personal Advisor",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "Proporcionar conteúdo de ordem tributária de qualidade, de forma simples, direta e acessível para empresas. ",
+  "icons": [{
+    "src": "pics/favicon.ico",
+    "sizes": "48x48",
+    "type": "image/icon"
+  }],
+  "related_applications": [{
+    "platform": "web"
+  }]
+}
