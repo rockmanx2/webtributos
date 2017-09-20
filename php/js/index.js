@@ -4,6 +4,15 @@
         hideLoader();
     });
 
+    $(function () {
+        $('.panel').hover(function () {
+            $(this).find('.panel-footer').slideDown(250);
+        }, function () {
+            $(this).find('.panel-footer').slideUp(250); //.fadeOut(205)
+        });
+    })
+
+
     function btnClickQuestion(){
         // Use only for V1
         $('#radioBtn span').on('click', function () {

@@ -31,12 +31,15 @@
         .otherwise({ redirectTo: './questionario/main.html' });
     });
 
-    app.controller('controlQuest', function ($scope,$location) {
+    app.controller('controlQuest', function ($scope, $location) {
+        showLoader();
+
         $scope.titulo;
         $scope.ordem;
         $scope.descricao;
         $scope.perguntas;
         $scope.cache = 0;
+
            
         if (($.inArray($location.path(),routes))>=0) {
 
